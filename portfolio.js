@@ -32,9 +32,15 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & Progressive-Web-Apps (PWA) in React.js, Next.js and Vite"
+					"⚡ Building responsive Progressive-Web-Apps (PWA) using Redux, BrowserRouter, Route and Styled-components."
 				),
-				emoji("⚡ RESTful API integration"),
+				emoji("⚡ DOM Manipulation and Event Handling"),
+				emoji(
+					"⚡ Prototypal Inheritance Integration and Object Creation"
+				),
+				emoji(
+					"⚡RESTful API Integration"
+				),
 			
 			],
 			softwareSkills: [
@@ -53,6 +59,10 @@ export const skillsSection = {
 				{
 					skillName: "JavaScript",
 					fontAwesomeClassname: "logos:javascript",
+				},
+				{
+					skillName: "TypeScript",
+					fontAwesomeClassname: "akar-icons:typescript-fill",
 				},
 				{
 					skillName: "TailwindCSS",
